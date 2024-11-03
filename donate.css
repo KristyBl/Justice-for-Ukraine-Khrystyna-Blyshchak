@@ -1,0 +1,125 @@
+/* main navigation bar */
+*{
+  margin: 0px;
+}
+.nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2%;
+  background-color: #FF0000; 
+}
+
+.logo {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a{
+  text-decoration:none;
+  font-size:1.8em;  
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+  padding: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #FFC0CB; 
+}
+
+/*Where the page-specific styling code begins*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  max-width: 50%; 
+  margin: 0 auto; 
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #007bff; 
+}
+
+.grid-item p {
+  font-size: 16px;
+  color: #333; 
+  margin-top: 10px; 
+}
+
+.grid-item img{
+  max-width:75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size:xx-large;
+  text-align: center;
+  text-decoration: bold;
+  padding: 1em;
+}
+
+p{
+  font-size:large;
+  padding-bottom:2em;
+  padding-left:1em;
+  padding-right:1em;
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+}
+  
+.names{
+  text-decoration:bolder;
+  padding:1em;
+  font-size:larger;
+  text-align:center;
+}
+
+h3{
+  text-decoration:bold;
+  padding:1em;
+  font-size:larger;
+  text-align:center;
+}
+
+#generateBtn{
+ background-color:yellow;
+ color:blue;
+ border-color:blue;
+ font-family: "Times New Roman", Times, serif;
+ padding:1 em;
+ font-size: 18px;
+ margin-left:10px;
+ border-width: 3px;
+}
+
+.scriptItem{
+  margin-left:10px;
+  font-size:18px;
+}

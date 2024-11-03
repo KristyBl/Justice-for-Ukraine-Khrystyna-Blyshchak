@@ -1,0 +1,82 @@
+/* main navigation bar */
+*{
+  margin: 0px;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2%;
+  background-color: #FF0000; 
+}
+
+.logo {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a{
+  text-decoration:none;
+  font-size:1.8em;  
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+  padding: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #FFC0CB; 
+}
+
+/*Where the page-specific styling code begins*/
+h2{
+  font-size:xx-large;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.text-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding:1.3em;
+}
+
+.history-p{
+  flex: 1;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+h4{
+  font-size:x-large;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-left:0.5em;
+}
+
+.image{
+  max-width:50%;
+  float:right;
+}
+
+

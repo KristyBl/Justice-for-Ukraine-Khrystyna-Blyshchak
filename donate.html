@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>donate</title>
+  <link href="donate.css" rel="stylesheet" type="text/css" />
+</head>
+
+  
+   <!-- navigation bar -->
+<body>
+  <header class=nav-head>
+     <h1 class=logo> Justice for Ukraine </h1>
+
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href = "index.html">Home</a>
+          </li>
+          <li>
+            <a href = "history.html">History</a>
+          </li>
+          <li>
+            <a href = "RWC.html">Russia's War Crimes</a>
+          </li>
+          <li>
+            <a href = "donate.html">Donate</a>
+          </li>
+          <li> 
+            <a href= "resources.html">Resources</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+   <!-- Page title and informational paragraphs -->
+<h2>Donate</h2>
+
+<p>In times of crisis, extending a helping hand can make an enormous difference in the lives of those affected. If you have the means to do so, supporting the cause through donations can be a powerful act of compassion and solidarity. As the situation in Ukraine continues to unfold, there are several trustworthy sources you can contribute to, each serving critical roles in assisting those facing hardships.</p>
+
+<p class=names>The Official Ukraine Page </p> 
+ <p> This website focuses on providing much-needed support to troops and front lines, working tirelessly to defend the nation's sovereignty and protect its people. By contributing to this organization, you directly aid the efforts to safeguard lives and preserve stability amidst challenging circumstances.</p>
+
+<p class=names>The Ukrainian Red Cross</p> 
+<p>Has a vital role in providing aid to injured individuals and supporting refugees fleeing from conflict zones. Their compassionate efforts extend a lifeline to those who have experienced unimaginable hardships, offering hope and support during their most vulnerable moments.</p>
+
+<p class=names> World Central Kitchen</p>
+<p>Is renowned for its swift and efficient response in serving comforting meals to survivors of disasters. With their dedication to providing nourishment and care, they alleviate hunger and bring relief to communities facing upheaval, promoting resilience and healing through the power of a warm meal.</p>
+
+<p class=names>Global Giving </p> 
+<p>Has a comprehensive approach covering a wide range of essential services, such as shelter, food, clean water, health, psychosocial support, education, and economic assistance. Their multifaceted approach empowers communities to rebuild and move forward, addressing both immediate needs and long-term challenges.</p>
+
+<p>By contributing to these reputable organizations, you become an integral part of a global effort to bring stability, hope, and relief to those affected by the crisis in Ukraine. Every donation, no matter the size, is a testament to the collective strength of humanity's compassion and empathy.</p>
+
+  <h3>Click on the names of the organizations below to be redirected to their donation pages.</h3>
+
+ <!-- pictures and links -->
+<div class="grid-container">
+  <div class="grid-item">
+  <a href = "https://war.ukraine.ua/donate/"> Ukraine Website</a>
+  <img src="assets/ukraineUA.png">
+  </div>
+  <div class="grid-item">
+  <a href = "https://donate.redcrossredcrescent.org/ua/donate/~my-donation?_cv=1"> Ukrainian Red Cross</a>
+<img src="assets/ukrainian-red-cross.jpeg" alt="Image of the Ukrainian red cross logo">
+  </div>
+  <div class="grid-item">
+  <a href= "https://donate.wck.org/give/499865/#!/donation/checkout"> World Central Kitchen</a>
+<img src="assets/WorldCentralKitchenLogo.png" alt="the World Central Kitchen logo">
+  </div>
+<div class="grid-item">
+  <a href ="https://www.globalgiving.org/projects/ukraine-crisis-relief-fund/"> Global Giving </a>
+  <img src="assets/GlobalGiving.png" alt="the Global Giving logo">
+</div>
+</div>
+
+  <p>Unable to make a monetary donation? An excellent alternative is to show your support by sending Ukrainian refugees words of encouragement. I haven't come across many websites that accept these types of letters at the moment. The only one I found is <a href="https://www.lettersofloveglobal.com/letters-of-love-to-ukraine"> Lots of Letters for Ukraine</a>. However, they have a specific format and template that they require. If you prefer to use a different website or send the letter to someone you know directly, you are welcome to use this script as you wish. Feel free to customize it to suit your needs and the recipient's situation.</p>
+
+
+   <!-- Key feature: text input and generate button to produce a feedback -->
+
+    <div class="scriptQues">
+    <div class="scriptItem">
+      <label for="yourName">Your name:</label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="scriptItem">
+      <label for="yourLocation">Your city, state, and/or country:</label>
+      <input type="text" id="country" required>
+    </div>
+
+
+    <button id="generateBtn">Generate your script</button>
+  </div>
+
+  <br/>
+
+  <p id="scriptReturned"></p>
+
+  <br/>
+
+  <script src="donate.js"></script>
+</body>
+
+</html>

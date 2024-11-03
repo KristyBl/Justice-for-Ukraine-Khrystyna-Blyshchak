@@ -1,0 +1,94 @@
+/* main navigation bar */
+*{
+  margin: 0px;
+}
+.nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2%;
+  background-color: #FF0000; 
+}
+
+.logo {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li a{
+  text-decoration:none;
+  font-size:1.8em;  
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+  padding: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #FFC0CB; 
+}
+
+/*Where the page-specific styling code begins*/
+h2{
+  font-size:xx-large;
+  text-align: center;
+  text-decoration: bold;
+  padding: 1em;
+}
+
+a{
+  text-align: center;
+  font-size: 34px;
+  text-decoration: none;
+  color: #007bff; 
+}
+
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 50%;
+  margin: 1em; 
+}
+
+.image-container a {
+  display: block; 
+  font-size: 1.8em;
+  color: #007bff;
+  text-align: center;
+  margin-top: 1em; 
+}
+
+p{
+  font-size:large;
+  padding-bottom:2em;
+  padding-left:1em;
+  padding-right:1em;
+  text-align: center;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+
+
+
